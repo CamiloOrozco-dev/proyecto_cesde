@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eaeaea;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding-left: 3%;
+}
+
+nav {
+  position: static;
+  width: 100%;
+  background-color: #6500ff;
+  display: inline-block;
+  color: white;
+  font-size: large;
+  height: 15%;
+}
+
+main {
+  display: flex;
+  padding: 5%;
+  margin: 5%;
+
+  gap: 30px;
+}
+
+.nav_editar {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.perfil {
+  height: 130px;
+  width: 20%;
+  padding-right: 30%;
+}
+
+.foto_perfil {
+  width: 200px;
+  height: 30%;
+  padding-bottom: 40px;
+}
+
+.contenido {
+  display: flex;
+  justify-content: center;
+   
+  gap: 50px;
+  background-color: #d9d9d9;
+  width: 80%;
+  height: 500px;
+}
+ button {
+  background-color: #6500ff;
+  color: white;
+ } 
+
+ .logo { 
+  width: 2px;
+  height: 10px;
+ }
