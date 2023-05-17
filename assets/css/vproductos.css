@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    background-color: #EAEAEA;
+}
+header{
+    display:flex;
+    height: 21px;
+    justify-content: space-between;
+    background-color: #6500FF ;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo_img{
+    height: 40px;
+    margin-right: 10px;
+    padding: 40px;
+}
+.contacto{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;   
+    padding: 40px;
+    font-size: 25px;
+    
+}
+
+.cuadro{
+position: absolute;
+left: 80px;
+top: 130px;
+border-radius: 34px;
+box-shadow: 8px 5px 10px gray;
+}
+
+
+
+.texto_1{
+position: absolute;
+width: 300px;
+height: 80px;
+left: 690px;
+top: 173px;
+font-family: 'Arimo Hebrew Subset Italic';
+font-style: italic;
+font-size: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+width: 45%;
+color: #000000;
+
+
+
+}
+
+.div_prsio {
+    position: absolute;
+ right: 38%;
+ top: 110%;
+ font-size: 25px;
+}
+
+.boton_1{
+    position: absolute;
+ right: 38%;
+ top: 360%;
+ border: none;
+ padding: 10px 20px;
+color: white;
+font-size: 25px;
+background: #F0474C;
+border-radius: 10px;
+width: 30%;
+cursor: pointer;
+right: 34%;
+
+
+}
+.stock{
+    position: absolute;
+    right: 30%;
+    top: 170%;
+    width: 40%;
+    background-color:  #6500FF;
+    box-shadow: 8px 5px 10px #6500FF;
+    color: white;
+}
+
+.boton_2{
+    position: absolute;
+ right: 38%;
+ top: 460%;
+ border: none;
+ padding: 10px 20px;
+color: white;
+font-size: 25px;
+background: #33984F;
+border-radius: 10px;
+width: 40%;
+cursor: pointer;
+right: 29%;
+
+}
