@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
     <title>Distribuidora J&R </title>
 </head>
-<body>
+<body class="editar_body">
 
     <header>
         <nav>
@@ -16,26 +16,32 @@
         </nav>
     </header>
 
-    <main>
-    <div class=" perfil">
-
-        <img src="" alt="Foto perfil de usuario" class="foto_perfil">
-
-        <H1>DESCRIPCION GENERAL DEL PERFIL 
-
-        </H1>
-         
-    </div>
-
-    <section class="contenido">
-        <div class="botones">
-            <button>Ver Carrito</button>
-            <input type="text">
-        </div>
-
-    </section>
-
-    </main>
+   
+    <main class="contenedor">
+        <h1 class="titulo">Editar perfil</h1>
+        <section class="section_perfil">
+          <div class="cont_info">
+            <img class= "img_perfil" src="/assets/img/ejemploperfil.jpg" alt="Foto perfil" />
+            <h1>Informacion General del usuario</h1>
+            
+          </div>
+        </section>
+        <section class="section_contenido">
+          <div class="contenedor_editar">
+            <div class="contenido_editar">
+                <div class="input_editar">
+                <input type="text" name="name" id="editar" placeholder="Nombre">
+                <input type="text" name="name" id="editar" placeholder="Telefono">
+                <input type="password" name="password" id="editar" placeholder="Contraseña">
+                <input type="password" name="cpassword" id="editar" placeholder="Confirmar Contraseña">
+            </div>
+            <input type="button" value="Confirmar" id="button_editar">
+            <a  class="cambio_contraseña"href=""> Cambiar Contraseña</a>
+           </div>  
+           </div>
+          </div>
+        </section>
+      </main>
     
 </body>
 </html>
