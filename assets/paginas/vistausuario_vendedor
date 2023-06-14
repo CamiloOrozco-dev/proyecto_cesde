@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vista usuario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+
+            <div class="nav_editar"> <a href=""><img src="" alt="Logo "></a> <a href=""> Hola "Andres" </a></div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="section">
+            <p class="parrafo_usuario1">Ultimas ventas</p>
+            <p class="parrafoUsuario" >Vendedor</p>
+            <p class="parrafoUsuario">Id Vendedor</p>
+            <input type="button" id ="button" class="boton_vendedor"  value="Generar pedidos">
+            <input type="button" id ="button" class="boton_vendedor"  value="Ver facturas">
+            <img src="Img/Vendedor2.jpeg" alt="usuario" height="100px" width="100px">
+            <p>Nombre usuario</p>
+            <p>Cedula</p>
+               
+        </div>
+        
+        
+
+
+        <div class="sectionDos">
+           
+          
+            <div class="iconoCont">
+                <div class="Icono">
+                  <img src="IMG/logo compras1.png" alt="Producto 1">
+                  <h3>Facturas</h3>
+                    <p>Facturas de clientes</p>
+                </div>
+                <div class="Icono">
+                  <img src="IMG/logo direccion...png" alt="Producto 2">
+                  <h3>Clientes</h3>
+                    <p>Registro de clientes</p>
+                </div>
+                <div class="Icono">
+                  <img src="IMG/logo tarjeta1.png" alt="Producto 3">
+                  <h3>Comisiones</h3>
+                    <p>Comisiones</p>
+                </div>
+              </div>
+          
+
+        </div>
+        
+          
+
+
+
+
+
+
+    </main>
+<body>
+</html>
