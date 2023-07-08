@@ -8,75 +8,67 @@
     <link rel="stylesheet" href="/assets/css/vdomicilio.css">
 </head>
 <body>
-<header>
-    <div class="logo">
-            <img class="logo_img" src="/assets/img/logo2.png" alt="logo">
-        <a class="contacto" href="#">contactanos</a>
-    </div>
-        
-            
-    <nav class="icons">
-        <a href="#">
-            <img src="/assets/img/cart.svg" alt="carrito">
-            <img src="/assets/img/profile-circle-fill (1).svg" alt="perfil">
-        </a>
-    <section>
-        
-        <form method="POST" action="/login">
-    <div class="for_1">
-        <label for="username">Nombre y apellido:</label>
-        <input class="input_1" type="text" id="username" name="username">
-    </div>
-    <div class="for_2">
-        <label  for="text">Direccion:</label>
-        <input class="input_2" type="text">
+    <header>
+         <div class="contenedor">
+            <div class="contenedor_img">
+                <img class="img_icon" src="/assets/img/logo2.png" alt="">
+                <a href="#">contactanos</a>
+            </div>  
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                    <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                    <path d="M17 17h-11v-14h-2" />
+                    <path d="M6 5l14 1l-1 7h-13" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+                    <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                  </svg>
+            </div>          
+         </div>
+    </header>
+    <main>
+        <section  class="section_main" >
+            <div  class="mod_main" >
+                <form action="">
+                    <div class="gap_inputs">
+                        <label for="">Nombre y apellido</label> <br>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="gap_inputs">
+                        <label for="">Dirección</label> 
+                        <label for="">barrio</label><br>
+                        <input type="text">
+                        <input type="text">
+                    </div>
+                    <div class="gap_inputs">
+                        <label for="">Numero de contacto</label> <br>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="gap_inputs">
+                        <label for="">Referencia de la Dirección</label> <br>
+                        <input type="text" name="" id="" placeholder="descripcion de la fachada o negocio">
+                    </div>
+                </form>
+            </div>
+            <section class="main_2">
+                <div>
+                    <p class="title">vinipel  alimentos 20 mts <br> 50mts 100 mts</p>
+                </div>
+                <div class="info_precio">
+                    <button>Producto</button>
+                    <p>$999.999</p>
+                </div>
+                <div class="btn">
+                    <button class="btn_1">Comprar </button>
+                    <button class="btn_2"> Pago contra entrega</button>
+                </div>
 
-    <div class="for_3" >
-        <label  for="text">Barrio:</label>
-        <input class="input_3" type="text"> 
-    </div>
-
-  </div>
-
-  <div class="for_4">
-    <input class="input_4" type="number">
-    <label for="number">Numero de contacto</label>
-  </div>
-
-  <div class="for_5">
-    <input class="input_5" type="text" placeholder="Descripcion de la fachada o negocion y punto de refrencia para encontrar indicaciones">
-    <label for="text">Referencia de la direccion</label>
-    
-  </div>
-  
-</form>
-
-</header>
-
-<main class="texto_1">
-    <h2 >Vinipel alimentos 20MTS 50MTS 100MTS </h2>
-<section>
-    <div class="div_prsio">
-        <h2>$ 999.999</h2>
-    </div>
-</section>
-
-    <div>
-        <h3 class="producto">Producto</h3>
-    </div>
-
- <section>
-    <div>
-        <button class="boton_1">Comprar</button>
-    </div>
-
-    <div>
-     <button class="boton_2" >Pago contra entrega</button>
-    </div>
-    
-    
-
-</main>
-    
+            </section>
+        </section>
+    </main>
 </body>
 </html>
