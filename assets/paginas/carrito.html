@@ -1,94 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="/assets/img/icons8-factura-64.png"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="/assets/img/icons8-factura-64.png" type="image/x-icon" />
     <link rel="stylesheet" href="/assets/css/styles.css" />
     <title>Distribuidora J&R</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <nav>
-        <div class="nav_editar">
-          <a href=""><img src="" alt="Logo " /></a> <a href=""> Contactanos </a>
-        </div>
-      </nav>
+        <nav>
+            <div class="nav_editar">
+                <a href="../../index.html"><img class="logo_nav" src="/assets/img/logo2.png" alt="Logo " /></a>
+                <a href="#contactanos"> Contactanos </a>
+
+                <div class="iconos">
+                    <a href="#">
+                        <img src="/assets/img/cart.svg" alt="carrito" />
+                    </a>
+                    <a href="/assets/paginas/vista_usuario.html"><img src="/assets/img/profile-circle-fill (1).svg" alt="perfil" /></a>
+
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main class="contenedor">
-      <section class="section_perfil">
-        <div class="cont_info">
-          <img class= "img_perfil" src="/assets/img/ejemploperfil.jpg" alt="Foto perfil" />
-          <h1>Nombre Usuario</h1>
-          <h2>Cedula</h2>
-        </div>
-      </section>
-      <section class="section_contenido">
-        <div class="cont_buscador">
-          <input type="button" id ="button" class="boton_carrito"  value="Agregar productos">
-          <input type="button" id ="button" class="boton_carrito"  value="Comprar todos">
-         
-            <span class="icon"
-              ><img src="/assets/img/icons8-búsqueda-24.png" alt="" />
-            </span>
-            <input
-              class="buscador"
-              type="search"
-              id="Buscar"
-              placeholder="Buscar..."
-          />
-        </div>
-        <div class="contenedor_inicial">
-          <div class="contenido_inicial">
-            <div class="contenido_producto">
-              <img  class ="imagen_producto" src="/assets/img/iconoproducto.png" alt="Imagen producto">
-              <h1 id="producto"> Nombre Producto  </h1>
-              <h2>Descripcion del Producto </h2>
+        <section class="section_perfil">
+            <div class="cont_info">
+                <img class="img_perfil" src="/assets/img/ejemploperfil.jpg" alt="Foto perfil" />
+                <h1>Nombre Usuario</h1>
+                <h2 id="cedula">Cedula</h2>
             </div>
-            <div class="botones">
-            <input class="boton_producto" type="button" id="button" value="Comprar">
-            <input class ="boton_producto" id="negacion" type="button" id="button" value ="Dejar">
-        </div>  
-        </div>  <div class="contenido_inicial">
-          <div class="contenido_producto">
-            <img  class ="imagen_producto" src="/assets/img/iconoproducto.png" alt="Imagen producto">
-            <h1 id="producto"> Nombre Producto  </h1>
-            <h2>Descripcion del Producto </h2>
-          </div>
-          <div class="botones">
-          <input class="boton_producto" type="button" id="button" value="Comprar">
-          <input class ="boton_producto" id="negacion" type="button" id="button" value ="Dejar">
-      </div>  
-      </div>  <div class="contenido_inicial">
-        <div class="contenido_producto">
-          <img  class ="imagen_producto" src="/assets/img/iconoproducto.png" alt="Imagen producto">
-          <h1 id="producto"> Nombre Producto  </h1>
-          <h2>Descripcion del Producto </h2>
-        </div>
-        <div class="botones">
-        <input class="boton_producto" type="button" id="button" value="Comprar">
-        <input class ="boton_producto" id="negacion" type="button" id="button" value ="Dejar">
-    </div>  
-    </div>  <div class="contenido_inicial">
-      <div class="contenido_producto">
-        <img  class ="imagen_producto" src="/assets/img/iconoproducto.png" alt="Imagen producto">
-        <h1 id="producto"> Nombre Producto  </h1>
-        <h2>Descripcion del Producto </h2>
-      </div>
-      <div class="botones">
-      <input class="boton_producto" type="button" id="button" value="Comprar">
-      <input class ="boton_producto" id="negacion" type="button" id="button" value ="Dejar">
-  </div>  
-  </div>
-         
-        </div>
-      </section>
+        </section>
+        <section class="section_contenido">
+            <div class="cont_buscador">
+                <input type="button" id="button" class="boton_carrito" value="Añadir más productos" />
+                <input type="button" id="button" class="boton_carrito" value="Comprar todos" />
+
+                <span class="icon"><img src="/assets/img/icons8-búsqueda-24.png" alt="" />
+          </span>
+                <input class="buscador" type="search" id="Buscar" placeholder="Buscar..." />
+            </div>
+            <div class="contenedor_inicial">
+                <div class="contenido_inicial">
+                    <div class="contenido_producto">
+                        <img class="imagen_producto" src="/assets/img/iconoproducto.png" alt="Imagen producto" />
+                        <div class="texto_producto">
+                            <h1 id="producto">Nombre Producto</h1>
+                            <h3>Descripcion del Producto</h3>
+                        </div>
+                        <div class="botones">
+                            <input class="boton_producto" type="button" id="button" value="Comprar" />
+                            <input class="boton_producto" id="negacion" type="button" id="button" value="Dejar" />
+                        </div>
+                    </div>
+
+                </div>
+                <div class="contenido_inicial">
+                    <div class="contenido_producto">
+                        <img class="imagen_producto" src="/assets/img/iconoproducto.png" alt="Imagen producto" />
+                        <div class="texto_producto">
+                            <h1 id="producto">Nombre Producto</h1>
+                            <h3>Descripcion del Producto</h3>
+                        </div>
+                        <div class="botones">
+                            <input class="boton_producto" type="button" id="button" value="Comprar" />
+                            <input class="boton_producto" id="negacion" type="button" id="button" value="Dejar" />
+                        </div>
+                    </div>
+
+                </div>
+                <div class="contenido_inicial">
+                    <div class="contenido_producto">
+                        <img class="imagen_producto" src="/assets/img/iconoproducto.png" alt="Imagen producto" />
+                        <div class="texto_producto">
+                            <h1 id="producto">Nombre Producto</h1>
+                            <h3>Descripcion del Producto</h3>
+                        </div>
+                        <div class="botones">
+                            <input class="boton_producto" type="button" id="button" value="Comprar" />
+                            <input class="boton_producto" id="negacion" type="button" id="button" value="Dejar" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </section>
     </main>
-  </body>
+</body>
+
 </html>

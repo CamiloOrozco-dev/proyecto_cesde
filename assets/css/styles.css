@@ -64,9 +64,6 @@ nav {
 
 .cambio_contraseña {
     font-size: medium;
-    position: relative;
-    left: 370px;
-    top: -25px;
     color: #458dfa;
     text-decoration: underline;
 }
@@ -104,10 +101,8 @@ nav {
 }
 
 .titulo {
-    position: absolute;
-    top: 40px;
+    text-align: center;
     padding: 20px;
-    left: 50%;
     font-size: 80px;
 }
 
@@ -116,7 +111,7 @@ nav {
     width: 90%;
     height: 80%;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -128,9 +123,6 @@ nav {
     border-radius: 25px;
     height: 30px;
     width: 120px;
-    position: relative;
-    left: 240px;
-    margin-top: 7%;
 }
 
 #editar {
@@ -149,6 +141,14 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+.editar_botones {
+    padding-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -172,9 +172,29 @@ nav {
     text-align: center;
 }
 
+.buscador {
+    border: none;
+    font-size: 20pt;
+    background-color: #d9d9d9;
+    border-radius: 25px;
+    height: 40px;
+    margin-left: 10%;
+    padding-left: 40%;
+    width: 60%;
+}
+
+.section_contenido {
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+}
+
 .cont_info {
     padding-top: 10%;
     padding-left: 15%;
+    text-align: center;
 }
 
 .img_perfil {
@@ -194,36 +214,42 @@ nav {
     margin-top: 40px;
     padding-bottom: 5%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
 }
 
-.section_contenido {
-    vertical-align: middle;
-    white-space: nowrap;
-    position: relative;
+.contenido_inicial {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 20%;
+    border-radius: 45px;
+    margin-top: 30px;
+}
+
+.contenido_producto {
     width: 100%;
-    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imagen_producto {
+    border-radius: 30px;
+    width: 10%;
+    height: 10%;
+    margin: 10px;
 }
 
 .boton_carrito {
     width: 141px;
     height: 55px;
-    left: 569px;
-    top: 185px;
     border-radius: 25px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25, 0.5));
-}
-
-.buscador {
-    border: none;
-    font-size: 20pt;
-    background-color: #d9d9d9;
-    border-radius: 25px;
-    height: 40px;
-    margin-left: 20%;
-    padding-left: 5%;
-    width: 60%;
 }
 
 .cont_buscador {
@@ -233,38 +259,17 @@ nav {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25, 0.5));
 }
 
-.contenido_inicial {
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    align-items: center;
-    margin-left: 5%;
-    justify-content: space-around;
-    width: 90%;
-    height: 20%;
-    border-radius: 45px;
-    margin-top: 30px;
-}
-
-.imagen_producto {
-    position: relative;
-    right: -30px;
-    border-radius: 30px;
-    height: 40%;
-    width: 40%;
-}
-
 .boton_producto {
     border-radius: 25px;
     height: 28px;
-    width: 90%;
+    width: 30%;
+    margin: 10px;
 }
 
 #negacion {
-    margin-left: -40px;
     background-color: #f0474c;
     color: white;
     border: none;
-    width: 80%;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25, 0.5));
 }
 
@@ -273,26 +278,17 @@ nav {
     background-color: #fc1515;
 }
 
-.contenido_producto {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-}
-
-#producto {
-    position: relative;
-    top: -20px;
-    margin: 10%;
-}
-
 .botones {
     display: flex;
-    width: 30%;
-    flex-wrap: 1;
-    gap: 20%;
-    position: relative;
-    right: -10px;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 20%;
+}
+
+.texto_producto {
+    display: flex;
+    font-size: 120%;
+    gap: 20px;
 }
 
 
@@ -384,18 +380,6 @@ nav {
 
 /*INICIO LOGIN*/
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #F5F5F5;
-}
-
-h2 {
-    font-size: 50px;
-    text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 80px;
-}
-
 .container {
     display: flex;
     align-items: center;
@@ -466,18 +450,6 @@ h2 {
 
 
 /*INICIO REGISTRO*/
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #F5F5F5;
-}
-
-h2 {
-    font-size: 50px;
-    text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 80px;
-}
 
 .container {
     display: flex;
@@ -563,32 +535,6 @@ h2 {
 
 /*INICIO VISTA USUARIO*/
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #eaeaea;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    padding-left: 3%;
-}
-
-nav {
-    position: static;
-    width: 100%;
-    background-color: #6500ff;
-    display: inline-block;
-    color: white;
-    font-size: large;
-    height: 15%;
-}
-
 .section {
     width: 600px;
     margin: 0 auto;
@@ -662,32 +608,6 @@ nav {
 
 /*INICIO VISTA USUARIO VENDEDOR*/
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #eaeaea;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    padding-left: 3%;
-}
-
-nav {
-    position: static;
-    width: 100%;
-    background-color: #6500ff;
-    display: inline-block;
-    color: white;
-    font-size: large;
-    height: 20%;
-}
-
 .section {
     width: 600px;
     margin: 0 auto;
@@ -757,3 +677,193 @@ nav {
 
 
 /*FIN VISTA USUARIO VENDEDOR*/
+
+
+/* VISTA USUARIO*/
+
+.contenedor_principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor_usuario {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    background-color: #c5c5c5;
+    padding: 20px;
+    border-radius: 70px;
+    margin-bottom: 70px;
+}
+
+.cont_usuario {
+    text-align: center;
+    margin: 25px;
+    width: 30%;
+}
+
+.info_venta {
+    width: 30%;
+    padding: 10px;
+    margin: 25px;
+    text-align: center;
+}
+
+.rol {
+    display: flex;
+    width: 30%;
+    padding: 10px;
+    margin: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton_factura {
+    width: 40%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 15pt;
+    color: white;
+    background-color: rgb(226, 72, 72);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25, 0.5));
+    border: none;
+    margin-top: 40%;
+}
+
+.contenedor_secundario {
+    width: 30%;
+    padding: 10px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px;
+    border-radius: 25px;
+}
+
+.titulo_usuario {
+    margin-bottom: 40px;
+}
+
+
+/* FIN VISTA USUARIO*/
+
+
+/* QUERYS camilo*/
+
+@media (max-width:1360px) {
+    .nav_editar {
+        height: 40px;
+    }
+    .boton_carrito {
+        width: 35%;
+        height: 30px;
+    }
+    .buscador {
+        width: 70%;
+        height: 30px;
+        padding-left: 35%;
+        font-size: 15pt;
+    }
+    .logo_nav {
+        height: 25px;
+        width: 25px;
+    }
+    .texto_producto {
+        display: flex;
+        font-size: 8pt;
+        gap: 20px;
+    }
+    .boton_producto {
+        width: 55px;
+        margin: 0;
+        height: 30px;
+        font-size: 8pt;
+    }
+    .boton_factura {
+        font-size: 13pt;
+        width: 130px;
+        margin-bottom: 20px;
+    }
+    .contenedor_secundario {
+        padding: 0;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .contenedor {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cont_info {
+        font-size: 5pt;
+    }
+    .img_perfil {
+        width: 80%;
+        height: 80%;
+    }
+    #cedula {
+        font-size: 20px;
+    }
+    .cont_buscador {
+        padding-top: 100px;
+    }
+    .buscador {
+        padding-left: 35%;
+        font-size: 8pt;
+    }
+    .boton_carrito {
+        font-size: 6pt;
+        width: 105px;
+        height: 25px;
+    }
+    .imagen_producto {
+        width: 30px;
+        height: 30px;
+    }
+    .texto_producto {
+        font-size: 5pt;
+    }
+    .boton_producto {
+        font-size: 6pt;
+        width: 35px;
+        height: 15px;
+    }
+    .titulo {
+        font-size: 30px;
+        margin-bottom: 10%;
+    }
+    .contenedor_editar {
+        padding-bottom: 60%;
+        padding-bottom: 30%;
+        height: 110vh;
+    }
+    .input_editar {
+        padding-top: 80px;
+    }
+    .editar_botones {
+        padding-top: 30%;
+    }
+    .contenedor_usuario {
+        display: flex;
+        flex-direction: column;
+    }
+    .titulo_usuario {
+        margin-bottom: 10px;
+    }
+    .imagen {
+        width: 50px;
+    }
+}
+
+
+/* FIN QUERYS*/
