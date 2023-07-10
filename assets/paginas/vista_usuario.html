@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,62 +10,60 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
 
 </head>
+
 <body>
     <header>
         <nav>
 
-            <div class="nav_editar"> <a href=""><img src="/assets/img/logo2.png" class="logo_nav" alt="Logo "></a> <a href=""> Hola "Andres" </a></div>
+            <div class="nav_editar">
+                <a href="../../index.html"><img src="/assets/img/logo2.png" class="logo_nav" alt="Logo "></a> <a href=""> Hola "Andres" </a></div>
 
         </nav>
     </header>
 
-    <main>
-
-        <div class="section">
-            <p class="parrafo_usuario1">Ultimas ventas</p>
-            <p class="parrafoUsuario" >Vendedor</p>
-            <p class="parrafoUsuario">Id Vendedor</p>
-            <input type="button" id ="button" class="boton_vendedor"  value="Generar pedidos">
-            <input type="button" id ="button" class="boton_vendedor"  value="Ver facturas">
-            <img src="Img/Vendedor2.jpeg" alt="usuario" height="100px" width="100px">
-            <p>Nombre usuario</p>
-            <p>Cedula</p>
-               
+    <main class="contenedor_principal">
+        <div class="contenedor_usuario">
+            <div class="cont_usuario">
+                <img class="img_perfil" src="/assets/img/ejemploperfil.jpg" alt="Foto perfil" />
+                <h1>Nombre Usuario</h1>
+                <h1 id="cedula">Cedula</h1>
+            </div>
+            <div class="info_venta">
+                <h1>Ultima venta</h1>
+            </div>
+            <div class="rol">
+                <h1>Rol Usuario</h1>
+                <input type="button" class="boton_factura" value="Ver Facturas">
+            </div>
         </div>
-        
-        
-
-
-        <div class="sectionDos">
-           
-          
-            <div class="iconoCont">
-                <div class="Icono">
-                  <img src="IMG/logo compras1.png" alt="Producto 1">
-                  <h3>Facturas</h3>
-                    <p>Facturas de clientes</p>
+        <div class="contenedor_usuario">
+            <div class="contenedor_secundario">
+                <div class="cont_imagen"><img class="imagen" src="/assets/img/logo tarjeta1.png" alt=""></div>
+                <div class="contenido_texto">
+                    <h1 class="titulo_usuario">Targetas</h1>
+                    <p>Tarjetas guardadas en la cuenta </p>
                 </div>
-                <div class="Icono">
-                  <img src="IMG/logo direccion...png" alt="Producto 2">
-                  <h3>Clientes</h3>
-                    <p>Registro de clientes</p>
-                </div>
-                <div class="Icono">
-                  <img src="IMG/logo tarjeta1.png" alt="Producto 3">
-                  <h3>Comisiones</h3>
-                    <p>Comisiones</p>
-                </div>
-              </div>
-          
 
+            </div>
+            <div class="contenedor_secundario">
+                <div class="cont_imagen"><img class="imagen" src="/assets/img/logo direccion...png" alt=""></div>
+                <div class="contenido_texto">
+                    <h1 class="titulo_usuario">Direcciones</h1>
+                    <p>Direcciones guardadas en la cuenta </p>
+                </div>
+
+            </div>
+            <div class="contenedor_secundario">
+                <div class="cont_imagen"><img class="imagen" src="/assets/img/logoBolsa.png" imagen "" alt=""></div>
+                <div class="contenido_texto">
+                    <h1 class="titulo_usuario">Compras</h1>
+                    <p>Compras y favoritos </p>
+                </div>
+
+            </div>
         </div>
-          
-
-
-
-
-
-
     </main>
-<body>
+
+    <body>
+
 </html>
